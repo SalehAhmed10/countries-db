@@ -1,0 +1,18 @@
+
+.header-main{
+    display:flex;
+    padding: 1rem 0 ;
+    background-color: #20232A;
+}
+
+.app-name h1{
+    padding: 0;
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #00d8ff;
+    justify-content: start;
+    align-items: center;
+   
+
+}

@@ -1,0 +1,105 @@
+ /* img border in main file */
+
+/* .card_main{
+  height: calc(100vh / 2);
+} */
+
+/* main css */
+
+
+  /* .img-box{
+      height:50%;
+      width: 100%;
+  } */
+  
+  /* .card-img-top{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  } */
+  
+  /* .recipe_cont{
+    height:150px;
+  } */
+  
+  .card-body{
+      min-height: 150px;
+  }
+
+  /* main css */
+  
+  .small text-muted{
+      padding: 0;
+    
+    }
+  
+
+  .country-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .img-box{
+    width: 100%;
+    height: 12rem;
+  }
+  
+ .card-img-top{
+      
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+      
+      } 
+
+      .country-detail{
+        margin: 20px 0;
+      }
+  
+  
+      .card-body{
+        border: 1px solid rgb(218, 215, 215);
+        
+        box-shadow: 5px;
+        
+      }
+  
+      /* .card {
+        background: rgb(252, 249, 249);
+        border-radius: 2px;
+        position: relative;
+      
+      } */
+      
+      .card{
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+          transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      
+      cursor: pointer;
+    }
+    
+    .card:hover{
+         transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+  
+      .card:hover{
+        transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   }
+      
+      .card:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      }
+  
+      @media screen and (max-width: 500px) {
+      
+    
+
+      }
