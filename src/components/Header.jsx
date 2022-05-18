@@ -1,24 +1,26 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import '../pages/styles/header.css'
+import './styles/header.css'
+import Logo from "../assets/logo.gif"
 
-
-function Header() {
+const Header = () => {
   return (
-      
+    <div>
 
-           <div className='header-main'> 
-             <Container>
-           <div className='app-name'> 
-            
-            <h1> Countries-db </h1>
+        <header className='header-main'>
+            <Container>
+              <div className='identity'> 
 
-            </div>           
+              <img src={Logo} alt="" />
+
+              <h3 style={{fontFamily: 'monospace'}}>Countries-db</h3>
+              </div>
+
             </Container>
-           </div> 
+  
+        </header>
 
-
-      
+    </div>
   )
 }
 
