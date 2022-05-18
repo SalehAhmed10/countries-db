@@ -62,8 +62,8 @@
   
   
       .card-body{
-        border: 1px solid rgb(218, 215, 215);
-        
+        border: 2px solid #ABD1c6;
+        background-color: #F9BC60;
         box-shadow: 5px;
         
       }

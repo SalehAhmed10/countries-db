@@ -9,9 +9,15 @@ function App() {
     <div className="App">
 
       <Header/>
+      
+        <div className='body-style'>
 
-      <Filter/>
-      <Countries/>
+        <Filter/>
+        <Countries/>
+
+        </div>
+
+
 
         
  

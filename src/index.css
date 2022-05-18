@@ -17,3 +17,8 @@ code {
   padding: 0;
   font-family: "Monstserrat", sans-serif;
 }
+
+.body-style{
+  background-color: #004643;
+  padding: 5rem 0;
+}
