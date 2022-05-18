@@ -1,6 +1,6 @@
 import React from 'react'
 import { Spinner } from 'react-bootstrap'
-import '../pages/styles/loadingspinner.css'
+import './styles/loadingspinner.css'
 
 export default function LoadingSpinner() {
   return (
