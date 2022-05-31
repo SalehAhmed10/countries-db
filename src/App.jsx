@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Countries from './components/Countries';
 import Header from './components/Header';
 import Filter from './components/Filter';
+import Country from "./components/Country";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             
             <Route exact path="/" element={<><Filter/><Countries/></>}  />
             
+            <Route exact path="/countries/:name" element={<><Country/> </>}  />
         
           </Routes>
 

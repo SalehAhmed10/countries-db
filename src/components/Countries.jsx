@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState , useEffect } from 'react'
-import {Container,  Card, Col, Row } from 'react-bootstrap'
+import {Container,  Card, Col, Row , Button} from 'react-bootstrap'
 import styled from 'styled-components'
 import './styles/countries.css'
 import LoadingSpinner from './LoadingSpinner'
+import { Link } from 'react-router-dom'
+
 
 const url = 'https://restcountries.com/v2/all'
 
@@ -62,10 +64,19 @@ const Countries = () => {
                                         
                                             <small> Region  : {region}</small> 
                                             
-                                        
+                                            
+
                                         </ul>
                                   
+                                        <ul>
 
+                                        <Link to={`/countries/${name}`}><Button variant="primary">  Learn More </Button></Link>
+                                        </ul>
+
+                                     
+                                     
+                                
+                               
                                 </Card.Body>
 
 
