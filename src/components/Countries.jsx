@@ -85,7 +85,7 @@ const Countries = () => {
                                   
                                         <ul>
 
-                                        <Link to={`/countries/${name}`}><Button variant="primary">  Learn More </Button></Link>
+                                        <Link to={`/countries/${name}`}><Button variant="primary " className='card-button'>  Learn More </Button></Link>
                                         </ul>
 
                                      

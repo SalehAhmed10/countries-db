@@ -82,8 +82,8 @@ function Country() {
                           <p> <span> Population: </span> {population} person </p>
                         <p> <span> Top Level Domain: </span> {topLevelDomain} </p>
                         <p> <span> Languages: </span> {languages.map(lang => lang.name).join(', ')} </p>
-                        <p> <span> Calling Codes: </span> {callingCodes.join(', ')} </p>
-                        <p> <span> Currencies: </span> {currencies.map(curr => curr.name).join(', ')} </p>
+                        <p> <span> Calling Codes: </span> {callingCodes?.join(', ')} </p>
+                        <p> <span> Currencies: </span> {currencies?.map(curr => curr.name).join(', ')} </p>
                         
 
 
