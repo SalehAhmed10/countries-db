@@ -32,13 +32,3 @@ const Filter = () => {
 }
 
 export default Filter
-{/* <div className="select">
-    <Form.Select aria-label="Default select example">
-    <option>Open this select menu</option>
-    <option value="Asia">Asia</option>
-    <option value="Europe">Europe</option>
-    <option value="Africa">Africa</option>
-    <option value="Americas">Americas</option>
-    <option value="Oceania">Oceania</option>
-    </Form.Select>
-</div> */}

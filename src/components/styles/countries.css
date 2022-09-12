@@ -22,6 +22,30 @@
     height:150px;
   } */
   
+  .main-body{
+    min-height: 100vh;
+    background-color: #004643;
+  }
+
+.main-search{
+    width: 400px;
+    height: 5vh;
+    padding: 0 1rem 0 1rem;
+    border: 2px solid #8d9b9a;
+    border-radius: 2rem;
+
+  }
+  .main-search:focus{
+    outline: none;
+  }
+
+  .main-search:active{
+    outline: none;
+    border: 2px solid #fff;
+  
+  }
+  
+
   .card-body{
       min-height: 150px;
   }
